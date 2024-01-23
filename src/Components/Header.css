@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    color: aqua;
+}
+
+.tradeprice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+p{
+    color: rgb(103, 104, 104);
+}
+
+.pro{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+@media (max-width:800px) {
+    h1{
+        font-size: 30px;
+    }
+}
